@@ -14,4 +14,4 @@ https://www.coursera.org/lecture/python-machine-learning/linear-regression-ridge
 https://explained.ai/regularization/index.html
 
 # Assignment
-See [overfitting_regularization.ipynb](3_overfitting_regularization/overfitting_regularization.ipynb) notebook.
+See [overfitting_regularization.ipynb](overfitting_regularization.ipynb) notebook.
