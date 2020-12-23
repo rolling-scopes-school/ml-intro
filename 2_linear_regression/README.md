@@ -19,5 +19,5 @@
 # Exercises
 [seminar_and_homework.ipynb](https://github.com/dr-leto/ml-intro/blob/2021/2_linear_regression/seminar_and_homework.ipynb)
 
-# Assigment
+# Assignment
 [seminar_and_homework.ipynb](https://github.com/dr-leto/ml-intro/blob/2021/2_linear_regression/seminar_and_homework.ipynb)

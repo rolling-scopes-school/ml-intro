@@ -16,5 +16,5 @@
 # Exercises
 - https://www.kaggle.com/learn/pandas
 
-# Assigments
+# Assignments
 [Pandas_data_manipulations.ipynb](https://github.com/dr-leto/ml-intro/blob/2021/1_data_manipulations/Pandas_data_manipulations.ipynb)
