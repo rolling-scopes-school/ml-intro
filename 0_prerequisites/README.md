@@ -1,5 +1,10 @@
 # Prerequisites
 
+## Environment and additional libraries
+
+- [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/)
+- [Numpy](https://cs231n.github.io/python-numpy-tutorial/#numpy)
+
 ## Python
 
 ### Tasks for self-control
@@ -8,11 +13,6 @@
 ### Guides and theoretical materials
 - Basics https://www.stavros.io/tutorials/python/ 
 - Details https://diveintopython3.problemsolving.io/
-
-## Environment and additional libraries
-
-- [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/)
-- [Numpy](https://cs231n.github.io/python-numpy-tutorial/#numpy)
 
 ## Linear Algebra
 
