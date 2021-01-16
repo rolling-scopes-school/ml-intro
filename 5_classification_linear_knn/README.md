@@ -1,6 +1,6 @@
 # Materials
 
-- In order to get a general understanding, read [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) chapter 4 up to section 4.3 inclusive. Dive into section 4.4 if you dare (optional).
+- In order to get a general understanding, read [An Introduction to Statistical Learning](https://trevorhastie.github.io/ISLR/) chapter 4 up to section 4.3 inclusive. Dive into section 4.4 if you dare (optional).
 - Review the related [sklearn facilities usage (logistic regression)](https://nbviewer.jupyter.org/github/justmarkham/DAT8/blob/master/notebooks/12_logistic_regression.ipynb).
 - Study the [Classification section of the Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/classification/video-lecture) (skip the Programming Exercise as it's not relevant for our course purposes).
 - Read about [kNN](https://www.unite.ai/what-is-k-nearest-neighbors/).
