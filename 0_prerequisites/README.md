@@ -7,7 +7,7 @@
 
 ## Python
 
-### Tasks for self-control
+### Tasks for self-assessment
 - [Python](https://github.com/dr-leto/ml-intro/blob/2021/0_prerequisites/python_tasks.md)
 
 ### Guides and theoretical materials
