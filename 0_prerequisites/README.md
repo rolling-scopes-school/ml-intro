@@ -1,6 +1,6 @@
 # Prerequisites
 
-Although this is introductory course we assume that you have some basic Python knowledge and you can figure out the environment settings yourself.
+Although this is introductory course we assume that you have some basic Python knowledge and you can figure out the environment settings yourself. We accept all graded assignments with a **Python 3.8+** code in **Jupyter Notebook**.
 
 ## Environment and additional libraries
 You need to install [Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) which means you are getting a version of Python 3.8 automatically and then follow the [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/) quick guide to make sure that everything works correctly. If you are a more advanced user with Python already installed and prefer to manage your packages manually, you can just use [pip](https://jupyter.org/install). Answers on questions like "What is Jupyter Notebook?" or "How to use it?" can be found in this [short intro guide](https://www.dataquest.io/blog/jupyter-notebook-tutorial/) (read first chapter up to "Example Analysis").<br><br>
