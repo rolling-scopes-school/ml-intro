@@ -14,7 +14,7 @@
 - [Validate PIN code](https://www.codewars.com/kata/55f8a9c06c018a0d6e000132)
 - [String to Camel Case](https://www.codewars.com/kata/517abf86da9663f1d2000003)
 - [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
-- [Extract the domain name](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
+- [Extract the domain name](https://www.codewars.com/kata/514a024011ea4fb54200004b)
 
 ### OOP
 - [Classy Extensions](https://www.codewars.com/kata/55a14aa4817efe41c20000bc)
