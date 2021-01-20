@@ -14,6 +14,8 @@ If you are already familiar with Python language you can test whether you knowle
 
 If the Python is new language for you please refer to a [start guide](https://www.stavros.io/tutorials/python/) and then try to do the first few tasks. Later on when you need a deeper understanding of language concepts, please refer to [this book](https://diveintopython3.problemsolving.io/) chapters (1, 2, 3, 4, 5 and 7.1, 7.2, 7.3, 7.4).
 
+You also should take a look at [Numpy library](https://cs231n.github.io/python-numpy-tutorial/#numpy) which we are going to work closely with.
+
 ## Linear Algebra
 Don't worry, these articles require only basic understanding of school mathematics. They cover only the simplest and most necessary concepts needed for understanding the basic ML models we use in this course.
 - [Practical view at vectors](https://towardsdatascience.com/a-practical-look-at-vectors-and-your-data-95bde21b37d1)
