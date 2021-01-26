@@ -13,7 +13,7 @@
 - Ещё один [туториал](https://www.freecodecamp.org/news/the-ultimate-guide-to-the-pandas-library-for-data-science-in-python/). 2 часа
 - [Seaborn tutorial](https://seaborn.pydata.org/tutorial.html) API overview 2 часа 
 
-# Exercises
+# Exercises for self-study
 - https://www.kaggle.com/learn/pandas
 
 # Assignments
