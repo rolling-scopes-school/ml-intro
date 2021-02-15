@@ -1,3 +1,5 @@
+# Materials    
+
 1. General article about feature engineering and selection (main reference):
 https://github.com/Yorko/mlcourse.ai/blob/master/jupyter_english/topic06_features_regression/topic6_feature_engineering_feature_selection.ipynb    
 
@@ -17,4 +19,7 @@ https://scikit-learn.org/stable/modules/impute.html
 https://scikit-learn.org/stable/modules/feature_selection.html    
 
 8. Melbourne housing dataset source:    
-https://www.kaggle.com/anthonypino/melbourne-housing-market
+https://www.kaggle.com/anthonypino/melbourne-housing-market    
+
+# Assignment
+See [feature_engineering_selection.ipynb](./feature_engineering_selection.ipynb) notebook.
