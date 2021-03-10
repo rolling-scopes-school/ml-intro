@@ -1,8 +1,8 @@
 # Materials
 
 **Lecture slides:**
-
-To be published later.
+- [Clustering](./slides/slides_clustering.pdf)
+- [Dimensionality reduction](./slides/slides_dimensionality_reduction.pdf)
 
 **Reading:**
 [An Introduction to Statistical Learning - Hastie et al. \[Sections 10.3, 10.2\]](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)
