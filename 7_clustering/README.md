@@ -38,7 +38,7 @@
 
 # Knowledge Check
 
-To be published later.
+[quiz_clustering.md](./quiz_clustering.md)
 
 # Assignment
 
