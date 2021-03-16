@@ -5,7 +5,7 @@
 - [Dimensionality reduction](./slides/slides_dimensionality_reduction.pdf)
 
 **Reading:**
-[An Introduction to Statistical Learning - Hastie et al. \[Sections 10.3, 10.2\]](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)
+[An Introduction to Statistical Learning - Hastie et al. \[Sections 10.3, 10.2\]](https://www.statlearning.com/s/ISLR-Seventh-Printing-xwa7.pdf)
 
 **Videos:**
 - [Clustering | Unsupervised Learning | Introduction](https://www.youtube.com/watch?v=Ev8YbxPu_bQ) (3m)
@@ -38,7 +38,7 @@
 
 # Knowledge Check
 
-To be published later.
+[quiz_clustering.md](./quiz_clustering.md)
 
 # Assignment
 
