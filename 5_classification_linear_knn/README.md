@@ -12,4 +12,4 @@
 
 # Assignment
 
-[classification.ipynb](./classification.ipynb)
+[hw_classification.ipynb](./hw_classification.ipynb)
