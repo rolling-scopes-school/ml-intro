@@ -1,3 +1,4 @@
 # RS School Machine Learning course
-- This is the first 2021 version
+- CURRENT RUN
+- This is the second run 2022 version
 - Materials and assignments information for each topic are in corresponding folders
