@@ -8,21 +8,18 @@ If you don't have enough computer power to complete the steps above or something
 
 ## Python
 
+We assume that you have solid programming skills and experience with any OOP or functional language. Hence learning Python would should not be a problem for you.
+
 If you are already familiar with Python language you can test whether you knowledge is enough to dive into the course. Don't worry if you cannot complete all of the tasks provided, fully completing the first part (Fundamentals, Strings, Arrays) will be good enough for start.
 ### Tasks for self-assessment
 - [Python](https://github.com/dr-leto/ml-intro/blob/2021/0_prerequisites/python_tasks.md)
 
-If the Python is new language for you please refer to a [start guide](https://www.stavros.io/tutorials/python/) and then try to do the first few tasks. Later on when you need a deeper understanding of language concepts, please refer to [this book](https://diveintopython3.problemsolving.io/) chapters (1, 2, 3, 4, 5 and 7.1, 7.2, 7.3, 7.4).
+If the Python is a new language for you please refer to a [start guide](https://www.stavros.io/tutorials/python/) and then try to do the first few tasks. Later on when you need a deeper understanding of language concepts, please refer to [Learning Python](https://diveintopython3.problemsolving.io/) by Mark Lutz chapters (4, 5, 7, 8, 12, 13, 14, 27, 29, 30).
 
 You also should take a look at [Numpy library](https://cs231n.github.io/python-numpy-tutorial/#numpy) which we are going to work closely with.
 
 ## Linear Algebra
-Don't worry, these articles require only basic understanding of school mathematics. They cover only the simplest and most necessary concepts needed for understanding the basic ML models we use in this course.
-- [Practical view at vectors](https://towardsdatascience.com/a-practical-look-at-vectors-and-your-data-95bde21b37d1)
-- [Vectors in numpy](https://machinelearningmastery.com/gentle-introduction-vectors-machine-learning/)
-- [Vector norms numpy](https://machinelearningmastery.com/vector-norms-machine-learning/)
+If you had a relevant course in University or you studied Linear Algebra yourself, you may fresh up you knowledge by simple going through this [cheetsheet](https://stanford.edu/~shervine/teaching/cs-229/refresher-algebra-calculus). If those concepts are unfamiliar to you, you may take a look at [Mathematics for ML book](https://mml-book.github.io/book/mml-book.pdf) chapters (2.1-2.8, 3.1-3.5, 4.1-4.5, 5.1, 5.2).
 
 ## Probability and statistic
-The situation is similar to that of Linear Algebra articles. Only simple and necessary concepts and definitions.
-- [Basics explained](https://towardsdatascience.com/probability-and-statistics-for-data-science-part-1-3eed6051c40d)
-- [Basics in numpy](https://machinelearningmastery.com/introduction-to-expected-value-variance-and-covariance/)
+You may fresh up you knowledge by going through this [Probability for ML cheetsheet](https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-probability). If that looks unfamiliar to you, please refer to [Mathematics for ML book](https://mml-book.github.io/book/mml-book.pdf) chapters 6.1-6.5.
