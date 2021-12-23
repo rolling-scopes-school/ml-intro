@@ -22,4 +22,4 @@ You also should take a look at the [Numpy library](https://cs231n.github.io/pyth
 If you had a relevant course in University or you studied Linear Algebra yourself, you may fresh up your knowledge by simply going through this [cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/refresher-algebra-calculus). If those concepts are unfamiliar to you, you may take a look at [Mathematics for ML book](https://mml-book.github.io/book/mml-book.pdf) chapters (2.1-2.8, 3.1-3.5, 4.1-4.5, 5.1, 5.2).
 
 ## Probability and statistic
-You may fresh up you knowledge by going through this [Probability for ML cheatsheet](https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-probability). If that looks unfamiliar to you, please refer to [Mathematics for ML book](https://mml-book.github.io/book/mml-book.pdf) chapters 6.1-6.5.
+You may fresh up your knowledge by going through this [Probability for ML cheatsheet](https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-probability). If that looks unfamiliar to you, please refer to [Mathematics for ML book](https://mml-book.github.io/book/mml-book.pdf) chapters 6.1-6.5.
