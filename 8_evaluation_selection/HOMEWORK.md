@@ -1,4 +1,4 @@
-# Evaluation-selection homework plan
+# Evaluation-selection homework
 
 Welcome to the homework of evaluation and selection module. This time we encourage you to implement an ML project from scratch with a structure close to production ML projects. To simplify things a little bit, you will implement only model training, evaluation, and selection steps. As a challenge, you can try to add deployment and inference steps later after finishing the RS course. 
 
