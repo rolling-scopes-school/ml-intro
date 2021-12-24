@@ -53,7 +53,7 @@ Please, leave feedback for each step: don't just write the total number of point
 
 ![nox report](https://user-images.githubusercontent.com/40484210/147333990-86db2125-5aff-4bb7-9431-e92e4e8894cc.png)
 
-1. (optional) Create a Github action that runs tests and linters against your code automatically each time you push to the main branch. Run it to see if it works. The status of your workflow should be 'completed successfully'. **(2 points *If you check someone else's work, you can verify the presence of passed Github actions as shown in the example below: if actions are present, you'll see the workflow runs after clicking on a button*)**
+15. (optional) Create a Github action that runs tests and linters against your code automatically each time you push to the main branch. Run it to see if it works. The status of your workflow should be 'completed successfully'. **(2 points *If you check someone else's work, you can verify the presence of passed Github actions as shown in the example below: if actions are present, you'll see the workflow runs after clicking on a button*)**
 
 ![GitHub actions button](https://user-images.githubusercontent.com/40484210/147334036-6915e696-f5ea-46a2-86ba-170c72ef578c.png)
 
