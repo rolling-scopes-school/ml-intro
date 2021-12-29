@@ -13,3 +13,7 @@ This module has an assignment that is quite voluminous. Start working early to c
 2. [Cross Validation in Time Series](https://medium.com/@soumyachess1496/cross-validation-in-time-series-566ae4981ce4). This article will tell you about validating time series models. However, the concept described there is very important and often used with any temporal features data, even if it's not time series. So study it carefully and try to understand well why we can't use a simple random split in this case.
 3. Scikit learn [guide](https://scikit-learn.org/stable/model_selection.html) to cross-validation with code examples
 4. Another [guide](https://weina.me/nested-cross-validation/) to nested cross-validation with a nice visualization. 
+
+## Tracking experiments
+1. [ML Experiment Tracking: What It Is, Why It Matters, and How to Implement It](https://neptune.ai/blog/ml-experiment-tracking)
+2. [How We Track Machine Learning Experiments with MLFlow](https://www.datarevenue.com/en-blog/how-we-track-machine-learning-experiments-with-mlflow)
