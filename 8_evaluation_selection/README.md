@@ -34,3 +34,6 @@ It's a myth that Data Scientists shouldn't write high-quality code since they ar
 3. [Here](https://realpython.com/python-testing/) is the tutorial for beginners at testing Python code. 
 4. Testing machine learning models can be trickier than testing traditional software, see [this article](https://www.jeremyjordan.me/testing-ml/) for details. 
 5. There are several approaches to testing software. If you already know how to write tests in Python and are thinking about when to write them, how to find the balance between reliability and complexity of your tests, you may find [this talk](https://www.youtube.com/watch?v=EZ05e7EMOLM) on Test-Driven Development helpful. 
+
+## Assignment
+You can see the assignment for this week in README.md file. Good luck!
