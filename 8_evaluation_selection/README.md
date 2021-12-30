@@ -32,10 +32,11 @@ Also, stay updated on new instruments since they are emerging every time.
 ## Code style, reproducibility, testing
 It's a myth that Data Scientists shouldn't write high-quality code since they are more researchers than engineers. ML systems can be more complex than any others and they possess even more risks for [technical debt](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf). That's why it's important to design solutions of high quality, follow style guides, and test your applications.  
 1. [PEP-8](https://www.python.org/dev/peps/pep-0008/) is a style guide to follow when writing Python code. You don't have to remember all the rules – there are the instruments that will detect if you break them automatically, such as [flake8](https://flake8.pycqa.org/en/latest/).
-2. [Reproducibility, Replicability, and Data Science](https://www.kdnuggets.com/2019/11/reproducibility-replicability-data-science.html).
-3. [Here](https://realpython.com/python-testing/) is the tutorial for beginners at testing Python code. 
-4. Testing machine learning models can be trickier than testing traditional software, see [this article](https://www.jeremyjordan.me/testing-ml/) for details. 
-5. There are several approaches to testing software. If you already know how to write tests in Python and are thinking about when to write them, how to find the balance between reliability and complexity of your tests, you may find [this talk](https://www.youtube.com/watch?v=EZ05e7EMOLM) on Test-Driven Development helpful. 
+2. You can make Python development more pleasurable and efficient if you use type annotations. Watch [this talk](https://www.youtube.com/watch?v=pMgmKJyWKn8) if you want to know why and how to do it.
+3. [Reproducibility, Replicability, and Data Science](https://www.kdnuggets.com/2019/11/reproducibility-replicability-data-science.html).
+4. [Here](https://realpython.com/python-testing/) is the tutorial for beginners at testing Python code. 
+5. Testing machine learning models can be trickier than testing traditional software, see [this article](https://www.jeremyjordan.me/testing-ml/) for details. 
+6. There are several approaches to testing software. If you already know how to write tests in Python and are thinking about when to write them, how to find the balance between reliability and complexity of your tests, you may find [this talk](https://www.youtube.com/watch?v=EZ05e7EMOLM) on Test-Driven Development helpful. 
 
 ## Assignment
 You can see the assignment for this module in the HOMEWORK.md file. Good luck!
