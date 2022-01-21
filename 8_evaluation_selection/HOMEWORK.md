@@ -4,7 +4,7 @@ Welcome to the assignment of evaluation and selection module. This time we encou
 
 ## How to solve it?
 
-Carefully read all the instructions before writing any code. Don't worry if it seems too complicated at first glance — it's meant to be. Decompose the big task into small and easy tasks and implement them one by one. We prepared a [demo solution](https://github.com/astraszab/demo-rs-homework) for another dataset that can help you while implementing yours. You don't have and shouldn't follow it entirely, but use it as a guide. For some tasks, you'll have to do things that are not implemented in the demo: that's an exercise for finding the necessary information on your own. 
+Carefully read all the instructions before writing any code. Don't worry if it seems too complicated at first glance — it's meant to be. Decompose the big task into small and easy tasks and implement them one by one. We prepared a [demo solution](https://github.com/rolling-scopes-school/ml-project-demo) for another dataset that can help you while implementing yours. You don't have and shouldn't follow it entirely, but use it as a guide. For some tasks, you'll have to do things that are not implemented in the demo: that's an exercise for finding the necessary information on your own. 
 
 There are three kinds of tasks: necessary conditions, good to have, and optional. Everything that is not marked as optional or necessary is good to have. You'll need to pass the necessary conditions to get more than 0 points for this homework, but there are not so many of them. Concentrate on good to have tasks, do them as well as you can. Do optional tasks only if you have some time and energy left, and are confident that other tasks are implemented with great quality.
 
