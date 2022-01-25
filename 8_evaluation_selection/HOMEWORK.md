@@ -16,7 +16,9 @@ If you're reviewing someone else's homework, you should receive a link to a publ
 
 The maximum number of points for this HW is 100, 22 of them are for optional tasks.
 
-Please, leave feedback for each task: don't just write the total number of points a student received.
+Please, leave feedback for each task: don't just write the total number of points a student received.  
+
+You can use [this spreadsheet](https://docs.google.com/spreadsheets/d/14QBY9aSRnKsx2mTYm-5OFBIV_NBg0Xh-QbcO6U3QlpY/edit?usp=sharing) as a template for your review. Make a copy of it and fill it out during the review: you'll see a total amount of points at the bottom. Send a final version to the person you were reviewing.
 
 ## Homework statement
 
