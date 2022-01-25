@@ -17,7 +17,7 @@
 [Linear regression math explained](https://habr.com/ru/company/ods/blog/323890/) (Prerequisites : Linear Algebra knowledge) 
 
 # Exercises
-[seminar_and_homework.ipynb](https://github.com/dr-leto/ml-intro/blob/2021/2_linear_regression/seminar_and_homework.ipynb)
+TBD
 
 # Assignment
-[seminar_and_homework.ipynb](https://github.com/dr-leto/ml-intro/blob/2021/2_linear_regression/seminar_and_homework.ipynb)
+TBD
