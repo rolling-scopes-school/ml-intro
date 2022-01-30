@@ -21,4 +21,4 @@ Introduction to the Pandas library.
 - https://www.kaggle.com/learn/pandas
 
 # Assignments
-[Pandas_data_manipulations.ipynb](./Pandas_data_manipulation_tasks.ipynb)
+[Pandas_data_manipulations.ipynb](./Pandas_data_manipulations_tasks.ipynb)
