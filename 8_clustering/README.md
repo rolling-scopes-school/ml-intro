@@ -36,10 +36,6 @@
 - http://www.machinelearning.ru/wiki/images/5/52/Voron-ML-Clustering-SSL-slides.pdf
 - https://www.kaggle.com/kashnitsky/a7-demo-unsupervised-learning
 
-# Knowledge Check
-
-[quiz_clustering.md](./quiz_clustering.md)
-
 # Assignment
 
 [clustering.ipynb](./clustering.ipynb)
