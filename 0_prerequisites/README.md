@@ -12,7 +12,7 @@ We assume that you have solid programming skills and experience with any OO or f
 
 If you are already familiar with Python language you can test whether your knowledge is enough to dive into the course. Don't worry if you cannot complete all of the tasks provided, fully completing the first part (Fundamentals, Strings, Arrays) will be good enough for start.
 ### Tasks for self-assessment below
-- [Python](https://github.com/rolling-scopes-school/ml-intro/blob/2022/0_prerequisites/python_tasks.md)
+[Python](https://github.com/rolling-scopes-school/ml-intro/blob/2022/0_prerequisites/python_tasks.md)
 
 If the Python is a new language for you please refer to a [quick start guide](https://www.stavros.io/tutorials/python/) and then try to do the first few tasks. Later on when you need a deeper understanding of language concepts, please refer to [Learning Python](https://learning-python.com/about-lp.html) by Mark Lutz chapters 4, 5, 7, 8, 12, 13, 14, 27, 29.
 
