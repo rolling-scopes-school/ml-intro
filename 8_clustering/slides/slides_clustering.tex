@@ -55,14 +55,14 @@
 \usepackage{graphicx}
 \usepackage{tikz}
   \usetikzlibrary{decorations.pathreplacing}
-\usepackage{minted}
+% \usepackage{minted}
   % \definecolor{bg}{rgb}{0.95,0.95,0.95}
-  \setminted[python]{xleftmargin=1cm}
-  \setminted[python3]{xleftmargin=1cm}
-  \setminted[shell]{xleftmargin=1cm}
-  \newcommand{\pytwo}[1]{\mintinline{python}{#1}}
-  \newcommand{\py}[1]{\mintinline{python3}{#1}}
-  \newcommand{\bash}[1]{\mintinline{shell}{#1}}
+  % \setminted[python]{xleftmargin=1cm}
+  % \setminted[python3]{xleftmargin=1cm}
+  % \setminted[shell]{xleftmargin=1cm}
+  % \newcommand{\pytwo}[1]{\mintinline{python}{#1}}
+  % \newcommand{\py}[1]{\mintinline{python3}{#1}}
+  % \newcommand{\bash}[1]{\mintinline{shell}{#1}}
 
 \usefonttheme[onlymath]{serif}
 \AtBeginDocument{\DeclareSymbolFont{pureletters}{T1}{lmr}{\mddefault}{it}}
@@ -293,7 +293,7 @@ $$
 \item \textbf{Проблема:} При разном выборе начальных точек получаются разные результаты.
 \item Улучшенный способ первоначального выбора центров:
   \item[$\rhd$] Первый центр выберем случайно (равномерно по всем наблюдениям).
-  \item[$\rhd$] Каждый следующий будем выбирать с вероятностью, обратно пропорциональной квадрату расстояния данной точки до ближайшего уже выбранного центра.
+  \item[$\rhd$] Каждый следующий будем выбирать с вероятностью, прямо пропорциональной квадрату расстояния данной точки до ближайшего уже выбранного центра.
 \item Этот способ инициализации называется $k$-means++.
 }
 \end{itemize}
