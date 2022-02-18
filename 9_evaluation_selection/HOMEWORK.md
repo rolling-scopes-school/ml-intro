@@ -22,7 +22,7 @@ You can use [this spreadsheet](https://docs.google.com/spreadsheets/d/14QBY9aSRn
 
 ## Homework statement
 
-1. Use the [Melbourne housing dataset](https://www.kaggle.com/anthonypino/melbourne-housing-market) that you saw in the 4th module. You will solve the task of house price prediction. **(necessary condition, 0 points for the whole homework if not done)**
+1. Use the [Melbourne housing dataset](https://www.kaggle.com/anthonypino/melbourne-housing-market) that you saw in the 6th module. You will solve the task of house price prediction. **(necessary condition, 0 points for the whole homework if not done)**
 2. Format your homework as a Python package. Use an [src layout](https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure) or choose some other layout that seems reasonable to you, explain your choice in the README file. Don't use Jupyter Notebooks for this homework. Instead, write your code in .py files. **(necessary condition, 0 points for the whole homework if not done)**
 3. Publish your code to Github. **(necessary condition, 0 points for the whole homework if not done)**
     1. Commits should be small and pushed while you're working on a project (not at the last moment, since storing unpublished code locally for a long time is not reliable: imagine something bad happens to your PC and you lost all your code). Your repository should have at least 30 commits if you do all non-optional parts of this homework. **(12 points)**
