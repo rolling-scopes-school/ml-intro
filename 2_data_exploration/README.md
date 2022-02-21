@@ -11,11 +11,11 @@ Install and experiment with the [pandas_profiling library](https://pandas-profil
 
 Bonus task: explore the https://www.tylervigen.com/spurious-correlations site (and if intrigued, read https://hbr.org/2015/06/beware-spurious-correlations).
 
-# Exercises
+# Exercises for self-training
 Perform a comprehensive exploration of this dataset: https://archive.ics.uci.edu/ml/datasets/Adult _without_ using the pandas_profiling library first. Refer to https://github.com/cmawer/pycon-2017-eda-tutorial/blob/master/EDA-cheat-sheet.md for structuring your approach. Feel free to draw inspiration from this example: https://towardsdatascience.com/lets-learn-exploratory-data-analysis-practically-4a923499b779.
 Then apply pandas_profiling, check for new findings and fill the gaps in your earlier analysis.
 
-# Assignments
+# Graded assignments
 Register on https://www.kaggle.com/.  
 Join this competition: https://www.kaggle.com/c/tabular-playground-series-apr-2021.   
 Get train.csv from https://www.kaggle.com/c/tabular-playground-series-apr-2021/data.  
