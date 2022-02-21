@@ -1,7 +1,7 @@
 # Materials
 Take a look into data quality related issues in real life: https://hbr.org/2018/04/if-your-data-is-bad-your-machine-learning-tools-are-useless.  
 
-Study sections 12.1. Describing Single Variables and 12.2.2 Correlations Between Quantitative Variables from https://saylordotorg.github.io/text_research-methods-in-psychology/s16-descriptive-statistics.html (feel free to skip the Differences Between Groups or Conditions section).   
+Study sections 12.1. Describing Single Variables and 12.2.2 Correlations Between Quantitative Variables from https://saylordotorg.github.io/text_research-methods-in-psychology/ (feel free to skip the Differences Between Groups or Conditions section).   
 
 Familiarize yourself with the seaborn library: https://seaborn.pydata.org/introduction.html.  
 Take this mini-course to get more hands-on: https://www.kaggle.com/learn/data-visualization. Don't miss the exercises!  
