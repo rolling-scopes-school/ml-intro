@@ -7,7 +7,7 @@ Familiarize yourself with the seaborn library: https://seaborn.pydata.org/introd
 Take this mini-course to get more hands-on: https://www.kaggle.com/learn/data-visualization. Don't miss the exercises!  
 Get acquainted with boxplots: https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51.  
 
-Install and experiment with the [pandas_profiling library](https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/pages/introduction.html)
+Install and experiment with the [pandas_profiling library](https://github.com/ydataai/pandas-profiling)
 
 Bonus task: explore the https://www.tylervigen.com/spurious-correlations site (and if intrigued, read https://hbr.org/2015/06/beware-spurious-correlations).
 
