@@ -1,0 +1,178 @@
+\documentclass[unicode]{beamer}
+
+\mode<presentation>
+  {
+  \usetheme{Madrid}
+  \setbeamercovered{transparent}
+  \setbeamersize{text margin left=5mm,text margin right=5mm}
+  }
+
+\usepackage{fontspec}
+   % Parameters borrowed from tex.stackexchange.com/questions/147038
+   % with some additions from linux.org.ru/forum/desktop/8254794
+   \setmainfont[
+     Ligatures=TeX,
+     Extension=.otf,
+     BoldFont=cmunbx,
+     ItalicFont=cmunti,
+     BoldItalicFont=cmunbi,
+     SlantedFont=cmunsl,
+     SmallCapsFont=cmunrm,
+     SmallCapsFeatures={Letters=SmallCaps}
+   ]{cmunrm}
+   \setsansfont[
+     Ligatures=TeX,
+     Extension=.otf,
+     BoldFont=cmunsx,
+     ItalicFont=cmunsi,
+     BoldItalicFont=cmunso,
+     SlantedFont=cmunsi,
+     SmallCapsFont=cmunss,
+     SmallCapsFeatures={Letters=SmallCaps}
+   ]{cmunss}
+   \setmonofont[
+     % Ligatures=TeX, % not needed as it turns straight quotes into curly ones
+     Extension=.otf,
+     BoldFont=cmuntb,
+     ItalicFont=cmuntt, % instead of cmunit
+     BoldItalicFont=cmuntx,
+     SlantedFont=cmuntt, % instead of cmunst
+     SmallCapsFont=cmuntt,
+     SmallCapsFeatures={Letters=SmallCaps}
+   ]{cmuntt}
+   % Another monospaced font
+   % \setmonofont[Ligatures=TeX]{FreeMono}
+
+\usepackage{polyglossia}
+   \setdefaultlanguage{russian}
+   \setotherlanguage{english}
+
+% \usepackage{cmap}
+% \usepackage[utf8]{inputenc}
+% \usepackage[T1,T2A,T4]{fontenc}
+% \usepackage[english,russian]{babel}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+  \usetikzlibrary{decorations.pathreplacing}
+\usepackage{minted}
+  % \definecolor{bg}{rgb}{0.95,0.95,0.95}
+  \setminted[python]{xleftmargin=1cm}
+  \setminted[python3]{xleftmargin=1cm}
+  \setminted[shell]{xleftmargin=1cm}
+  \newcommand{\pytwo}[1]{\mintinline{python}{#1}}
+  \newcommand{\py}[1]{\mintinline{python3}{#1}}
+  \newcommand{\bash}[1]{\mintinline{shell}{#1}}
+
+\usefonttheme[onlymath]{serif}
+\AtBeginDocument{\DeclareSymbolFont{pureletters}{T1}{lmr}{\mddefault}{it}}
+
+% NB: Be sure to specify [fragile] option for each frame with code listings.
+
+\title[Снижение размерности]{Снижение размерности}
+\author[]{RS School Machine Learning course}
+\institute[]{}
+\date[]{}
+
+\beamerdefaultoverlayspecification{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Зачем нужно снижать размерность}
+\begin{itemize}
+\item Обычно наблюдения даны в $\mathbb{R}^d$.
+\item {<<}Проклятие размерности>>: при больших $d$ падает эффективность алгоритмов и перестаёт работать геометрическая интуиция.
+  \begin{itemize}
+  \item[--] У многих классов моделей время обучения зависит линейно от $d$
+  \item[--] Разреженность данных: желательно, чтобы наблюдений в обучающей выборке было хотя бы в несколько раз больше $d$
+  \item[--] Евклидово расстояние теряет чувствительность с ростом $d$
+  \end{itemize}
+\item Чтобы справиться с <<проклятием размерности>>, данные отображают в $\mathbb{R}^{d^\prime}$, $d^\prime \ll d$.
+\item Когда $d^\prime = 2$, можно визуализировать на плоскости.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Методы снижения размерности}
+\begin{itemize}
+\item Отбор признаков (feature selection):
+  \begin{itemize}
+  \item[--] по статистическим свойствам
+  \item[--] по скоррелированности друг с другом
+  \item[--] по предсказательной силе модели на подмножестве признаков\dots
+  \end{itemize}
+\item Выделение признаков (feature extraction) -- сегодня о нём.
+\item Линейные методы: искомое отображение $\mathbb{R}^d \rightarrow \mathbb{R}^{d^\prime}$ можно представить матрицей $d \times d^\prime$.
+  \begin{itemize}
+  \item[$\rhd$] Метод главных компонент
+  \end{itemize}
+\item Нелинейные методы: отображение из произвольного метрического пространства, не обязательно записывается в~явном виде.
+  \begin{itemize}
+  \item[$\rhd$] Многомерное шкалирование
+  \item[$\rhd$] t-SNE
+  \item[$\rhd$] UMAP
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Метод главных компонент}
+\begin{itemize}
+\item[$\rhd$] Центрируем данные: вычтем среднее по каждому признаку.
+\item[$\rhd$] Найдём такую прямую, проходящую через ноль, проекции точек на которую дают наибольшую дисперсию.
+\item[$\rhd$] Среди всех перпендикуляров к ней опять найдём такую, что проекции точек на неё дают наибольшую дисперсию.
+\item[$\rhd$] \dots И так далее, пока не наберётся $d^\prime$.
+\item[$\rhd$] Можно продолжать до размерности $d$, получим новый базис в исходном пространстве.
+\item Это метод главных компонент (principal components analysis, PCA).
+  \begin{itemize}
+  \item На практике обычно выполняют сингулярное разложение матрицы данных или считают собственные вектора ковариационной матрицы.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{Многомерное шкалирование}
+\begin{itemize}
+\item Что если попробовать как можно точнее сохранить расстояния между точками?
+\item[$\rhd$] Пусть $x_1,\, \dots,\, x_N$ – исходные точки в $(X,\, \rho)$.
+\item[$\rhd$] Заведём проекции этих точек $y_1,\, \dots,\, y_N$ в $\mathbb{R}^{d^\prime}$.
+\item[$\rhd$] Вычислим все попарные расстояния $\rho_{ij}$ между исходными точками и $\delta_{ij}$ между проекциями, где $\delta$ -- обычное евклидово расстояние.
+\item[$\rhd$] Минимизируем
+$$
+\sum_i \sum_j \left(\rho_{ij} - \delta_{ij}\right)^2
+$$
+-- можно градиентным спуском, двигая проекции.
+\item Это многомерное шкалирование (multidimensional scaling).
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{t-SNE}
+\begin{itemize}
+\item Дальнейшее развитие этой идеи – алгоритм t-SNE (t-distributed stochastic neighbor embedding).
+\item $\rho_{ij}$ между исходными точками и $\delta_{ij}$ между проекциями записываются через распределения вероятностей.
+\item Минимизируется расстояние между распределениями (KL-divergence).
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{UMAP}
+\begin{itemize}
+\item[$\rhd$] Параметр $n$ -- число соседей.
+\item[$\rhd$] Строится ориентированный взвешенный граф:
+  \begin{itemize}
+  \item[--] вершины -- точки данных
+  \item[--] из каждой вершины исходит $n$ рёбер к ближайшим соседям
+  \item[--] сумма весов рёбер ограничена константой
+  \end{itemize}
+\item[$\rhd$] Веса рёбер симметризуются $\Rightarrow$ пропадает ориентация.
+\item[$\rhd$] Граф вкладывается в $\mathbb{R}^{d^\prime}$, используется force-directed алгоритм: вершины притягиваются и отталкиваются, в зависимости от весов рёбер.
+\end{itemize}
+\end{frame}
+
+\end{document}
