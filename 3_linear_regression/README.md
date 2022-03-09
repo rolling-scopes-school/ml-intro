@@ -16,8 +16,5 @@
 ## Other
 [Linear regression math explained](https://habr.com/ru/company/ods/blog/323890/) (Prerequisites : Linear Algebra knowledge) 
 
-# Exercises
-TBD
-
 # Assignment
-TBD
+[linear_regression.ipynb](./linear_regression.ipynb)

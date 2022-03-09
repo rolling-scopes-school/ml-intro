@@ -12,14 +12,17 @@ We assume that you have solid programming skills and experience with any OO or f
 
 If you are already familiar with Python language you can test whether your knowledge is enough to dive into the course. Don't worry if you cannot complete all of the tasks provided, fully completing the first part (Fundamentals, Strings, Arrays) will be good enough for start.
 ### Tasks for self-assessment below
-- [Python](https://github.com/rolling-scopes-school/ml-intro/blob/2022/0_prerequisites/python_tasks.md)
+[Python](https://github.com/rolling-scopes-school/ml-intro/blob/2022/0_prerequisites/python_tasks.md)
 
 If the Python is a new language for you please refer to a [quick start guide](https://www.stavros.io/tutorials/python/) and then try to do the first few tasks. Later on when you need a deeper understanding of language concepts, please refer to [Learning Python](https://learning-python.com/about-lp.html) by Mark Lutz chapters 4, 5, 7, 8, 12, 13, 14, 27, 29.
 
 You also should take a look at the [Numpy library](https://cs231n.github.io/python-numpy-tutorial/#numpy) which we are going to work closely with.
 
 ## Linear Algebra
-If you had a relevant course in University or you studied Linear Algebra yourself, you may freshen up your knowledge by simply going through this [cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/refresher-algebra-calculus). If those concepts are unfamiliar to you, you may take a look at [Mathematics for ML book](https://mml-book.github.io/book/mml-book.pdf) chapters 2.1-2.8, 3.1-3.5, 4.1-4.5, 5.1, 5.2.
+If you had a relevant course in University or you studied Linear Algebra yourself, you may freshen up your knowledge by simply going through this [cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/refresher-algebra-calculus). If those concepts are unfamiliar to you, you may take a look at [Linear Algebra for ML blog posts](https://programmathically.com/linear-algebra-for-machine-learning/) including all of the chapters in chronological order. If you are a fan of video podcasts, please refer to this excellent [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) series.
+
+## Calculus
+You don't need much of a Calculus to feel confident enough with the lectures and assignments on the course. However, if the concepts of _derivative_ and _gradient_ cause you some questions, please take a look at [Calculus for ML blog posts](https://programmathically.com/calculus-for-machine-learning/). You need only the first seven posts up to _The Multivariable Chain Rule_. Alternatively, you may watch the first four videos of [Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) up to _Visualizing the chain rule and product rule_.
 
 ## Probability and statistics
-You may refresh your knowledge by going through this [Probability for ML cheatsheet](https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-probability). If some concepts are not clear, please refer to [Mathematics for ML book](https://mml-book.github.io/book/mml-book.pdf) chapters 6.1-6.5.
+You may refresh your knowledge by going through this [Probability for ML cheatsheet](https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-probability). If some concepts are not clear, please refer to [Probability and Statistics for ML](https://programmathically.com/probability-and-statistics-for-machine-learning-and-data-science/). You need only the first eight posts of _Basic Statistics and Probability_ chapter up to _Normal Distribution and Gaussian Random Variables_. 
