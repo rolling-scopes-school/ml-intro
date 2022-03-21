@@ -1,6 +1,6 @@
 # Materials
 
-If you were successful with ./3_linear_regression assignment you may find that module very easy. You should be already familiar with most of the concepts covered here. If not - don't worry! We have a bunch of cool videos for you to study regularization and consolidate your knowledge on a practical assignment.
+If you were successful with [#3 Linear Regression](../3_linear_regression) assignment you may find that module very easy. You should be already familiar with most of the concepts covered here. If not - don't worry! We have a bunch of cool videos for you to study regularization and consolidate your knowledge on a practical assignment.
 
 Firstly, I want you to watch a series of excellent videos by StatQuest.
 1. [Cross-Validation](https://www.youtube.com/watch?v=fSytzGwwBVw&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=3)
