@@ -63,8 +63,8 @@ def test_gini_index(func):
         assert np.isclose(func(x), value), f'Should be {value} for {x}'
     test(np.array([]), 0.0)
     test(np.array([1]), 0.0)
-    test(np.array([1, 2]), 0.5)
-    test(np.array([1, 1, 2]), 4/9)
+    test(np.array([1, 0]), 0.5)
+    test(np.array([1, 1, 0]), 4/9)
     trgt = np.random.default_rng(RANDOM_STATE).choice([0, 1], 20)
     test(trgt, 0.455)
     print('\033[92m All good!')
@@ -73,20 +73,22 @@ def test_gini_index(func):
 def test_gini_gain(func):
     def test(x, xs, value):
         assert np.isclose(func(x, xs), value), f'Should be {value} for {x} and {xs}'
-    test(np.array([1, 1, 2]), [np.array([1, 1]), np.array([2])], 4/9)
-    test(np.array([1, 1, 2]), [np.array([1]), np.array([1, 2])], 1/9)
+    test(np.array([1, 1, 0]), [np.array([1, 1]), np.array([2])], 4/9)
+    test(np.array([1, 1, 0]), [np.array([1]), np.array([1, 2])], 1/9)
     trgt = np.random.default_rng(RANDOM_STATE).choice([0, 1], 20)
     test(trgt, [trgt[:10], trgt[10:]], 0.045)
     print('\033[92m All good!')
 
 
 def test_entropy(func):
+    assert func(np.array([0])) == 0.0, 'Should be 0.0 if all elements are equal'
+    assert func(np.array([1])) == 0.0, 'Should be 0.0 if all elements are equal'
+
     def test(x, value):
         assert np.isclose(func(x), value), f'Should be {value} for {x}'
     test(np.array([]), 0.0)
-    test(np.array([1]), 0.0)
-    test(np.array([1, 2]), 0.69314718)
-    test(np.array([1, 1, 2]), 0.63651416)
+    test(np.array([1, 0]), 0.69314718)
+    test(np.array([1, 1, 0]), 0.63651416)
     trgt = np.random.default_rng(RANDOM_STATE).choice([0, 1], 20)
     test(trgt, 0.64744663)
     print('\033[92m All good!')
@@ -95,8 +97,8 @@ def test_entropy(func):
 def test_information_gain(func):
     def test(x, xs, value):
         assert np.isclose(func(x, xs), value), f'Should be {value} for {x} and {xs}'
-    test(np.array([1, 1, 2]), [np.array([1, 1]), np.array([2])], 0.63651416)
-    test(np.array([1, 1, 2]), [np.array([1]), np.array([1, 2])], 0.17441604)
+    test(np.array([1, 1, 0]), [np.array([1, 1]), np.array([2])], 0.63651416)
+    test(np.array([1, 1, 0]), [np.array([1]), np.array([1, 2])], 0.17441604)
     trgt = np.random.default_rng(RANDOM_STATE).choice([0, 1], 20)
     test(trgt, [trgt[:10], trgt[10:]], 0.05067183)
     print('\033[92m All good!')
