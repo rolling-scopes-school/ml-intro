@@ -26,4 +26,4 @@ https://scikit-learn.org/stable/modules/feature_selection.html
 https://www.kaggle.com/anthonypino/melbourne-housing-market    
 
 # Assignment
-See [feature_engineering_selection.ipynb](./feature_engineering_selection.ipynb) notebook.
+See [feature_engineering_selection.ipynb](./homework.ipynb) notebook.
