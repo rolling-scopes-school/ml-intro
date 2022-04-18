@@ -1,7 +1,11 @@
 # Materials    
 
 * General article about feature engineering and selection (main reference):
-https://github.com/Yorko/mlcourse.ai/blob/master/jupyter_english/topic06_features_regression/topic6_feature_engineering_feature_selection.ipynb    
+https://github.com/Yorko/mlcourse.ai/blob/master/jupyter_english/topic06_features_regression/topic6_feature_engineering_feature_selection.ipynb
+
+* A great set of videos about Principal Component Analysis: [PCA 1](https://www.youtube.com/watch?v=FgakZw6K1QQ&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=28&ab_channel=StatQuestwithJoshStarmer) and [PCA 2](https://www.youtube.com/watch?v=oRvgq966yZg&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=30&ab_channel=StatQuestwithJoshStarmer)
+
+* [Boruta feature selection article](https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)
 
 * Feature engineering/preprocessing, using scikit-learn API (great code examples, but really brief explanation):    
 https://scikit-learn.org/stable/modules/preprocessing    
@@ -22,4 +26,4 @@ https://scikit-learn.org/stable/modules/feature_selection.html
 https://www.kaggle.com/anthonypino/melbourne-housing-market    
 
 # Assignment
-See [feature_engineering_selection.ipynb](./feature_engineering_selection.ipynb) notebook.
+See [homework.ipynb](./homework.ipynb) notebook.
