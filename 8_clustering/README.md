@@ -5,8 +5,10 @@
 - [Dimensionality reduction](./slides/slides_dimensionality_reduction.pdf)
 
 **Reading:**
-[An Introduction to Statistical Learning - Hastie et al. \[Sections 10.3, 10.2\]](https://www.statlearning.com/s/ISLR-Seventh-Printing.pdf)
-[Relationship between SVD and PCA](https://stats.stackexchange.com/questions/134282/relationship-between-svd-and-pca-how-to-use-svd-to-perform-pca)
+
+- [An Introduction to Statistical Learning - Hastie et al. \[Sections 10.3, 10.2\]](https://www.statlearning.com/s/ISLR-Seventh-Printing.pdf)
+- [Relationship between SVD and PCA](https://stats.stackexchange.com/questions/134282/relationship-between-svd-and-pca-how-to-use-svd-to-perform-pca)
+
 
 **Videos:**
 - [Clustering | Unsupervised Learning | Introduction](https://www.youtube.com/watch?v=Ev8YbxPu_bQ) (3m)
